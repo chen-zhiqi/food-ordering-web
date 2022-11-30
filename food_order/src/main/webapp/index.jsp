@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Ordering Web</title>
 </head>
 <body>
-<h1>Testing</h1>
-<h2>Test 2</h2>
+<h1>Ordering Web</h1>
 </body>
 </html>
