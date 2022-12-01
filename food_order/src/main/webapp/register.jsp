@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Register</title>
+<title>Insert title here</title>
 </head>
 <body>
 <form action="RegisterUser" method="post">
