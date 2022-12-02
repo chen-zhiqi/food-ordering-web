@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class RegisterServlet
  */
-@WebServlet("/RegisterServlet")
+@WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -31,14 +31,25 @@ public class RegisterServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		//String page = getHTMLString(request.getServletContext().getRealPath("/html/register.html"), "");
+		//response.getWriter().write(page);
+		request.getRequestDispatcher("/register.jsp").forward(request, response);
 	}
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html");
+		String n = request.getParameter("userName");
+		String p = request.getParameter("password");
+		String e = request.getParameter("email");
+		request.setAttribute("inputResult","registered successfully! Username: "+ n + " with password "+ p);
+		request.getRequestDispatcher("/register.jsp").forward(request, response);
+	}
+	
+/**		response.setContentType("text/html");
 		
 		//Step 1: Initialize a PrintWriter object to return the html values via the response
 		PrintWriter out = response.getWriter();
@@ -48,6 +59,8 @@ public class RegisterServlet extends HttpServlet {
 		String p = request.getParameter("password");
 		String e = request.getParameter("email");
 		//String c = request.getParameter("language");
+		request.setAttribute("inputResult","registered successfully! Username:"+ n + "with password"+ p);
+		
 		
 		//Step 3: attempt connection to database using JDBC, you can change the username and password accordingly using the phpMyAdmin > User Account dashboard
 		try {
@@ -72,6 +85,10 @@ public class RegisterServlet extends HttpServlet {
 				writer.println("<h1>" + "You have successfully registered an account!" +"</h1>");
 				writer.close();
 			}
+			else {
+				PrintWriter writer = response.getWriter();
+				writer.println("Sorry,string empty");
+			}
 		}
 		
 		//Step 8: catch and print out any exception
@@ -81,5 +98,10 @@ public class RegisterServlet extends HttpServlet {
 		}
 		doGet(request, response);
 	}
+	//might be in use
+	private String getHTMLString(String realPath, String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}*/
 
 }
