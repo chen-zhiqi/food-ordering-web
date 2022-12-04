@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-light">
         <div>
-            <a class="navbar-brand"> Food Ordering Application </a>
+            <a class="navbar-brand"> Food Ordering </a>
         </div>
         <ul class="navbar-nav">
             <li><a href="<%=request.getContextPath()%>/main.jsp"
