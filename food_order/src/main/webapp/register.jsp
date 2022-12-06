@@ -11,6 +11,10 @@
 </head>
 <body>
 	<div style="text-align:center">
+		<div style=font-size:30px>
+			<b>Register Here!</b>
+		</div>
+		
 		<div class="content">
 		<%
 			String result = (String)request.getAttribute("inputResult");
