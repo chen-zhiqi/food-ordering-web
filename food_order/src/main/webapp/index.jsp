@@ -6,7 +6,10 @@
 <meta charset="ISO-8859-1">
 <title>Ordering Web</title>
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 <body>
+register_jsp
 	<h1>Ordering Web</h1>
 	<!-- Create a form with the action attribute to specific where to send the form-data when
 	the form is submitted, method attribute to specific the method used (GET, POST, PUT, DELETE,
@@ -16,5 +19,33 @@
 			<!-- Implement submit button with type = submit to perform the request when clicked -->
 			<input type="submit" value="Call User" />
 		</form>
+
+<nav class="navbar navbar-expand-md navbar-light">
+        <div>
+            <a class="navbar-brand"> Food Ordering </a>
+        </div>
+        <ul class="navbar-nav">
+            <li><a href="<%=request.getContextPath()%>/main.jsp"
+                class="nav-link">Home</a></li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li><a href="<%=request.getContextPath()%>/Register.jsp"
+                class="nav-link">Register</a></li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li><a href="<%=request.getContextPath()%>/Menu.jsp"
+                class="nav-link">Menu</a></li>
+        </ul>
+
+        <ul class="navbar-nav">
+            <li><a href="<%=request.getContextPath()%>/Cart.jsp"
+                class="nav-link">Cart</a></li>
+        </ul>v
+    </nav>
+    <h2 class="text-center my-5">Welcome to Home page!</h2>
+
+main
 </body>
 </html>

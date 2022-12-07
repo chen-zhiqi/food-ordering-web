@@ -1,1 +1,1 @@
-# maven-git-project
+# food-ordering-web
