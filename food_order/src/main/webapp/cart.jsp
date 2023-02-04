@@ -36,8 +36,8 @@ img {
 	
 	<table>
   <tr>
-    <th>Dish</th>
-    <th>Picture</th>
+    <th>Dishes for Order</th>
+    <th>Image</th>
     <th>Price</th>
   </tr>
   <tr>
@@ -54,21 +54,6 @@ img {
     <td>Risotto</td>
     <td><img src="https://food-images.files.bbci.co.uk/food/recipes/seafoodrisotto_5522_16x9.jpg"></td>
     <td>$11</td>
-  </tr>
-    <tr>
-    <td>Ravioli</td>
-    <td><img src="https://thecozycook.com/wp-content/uploads/2021/09/Ravioli-Sauce-f.jpg"></td>
-    <td>$7</td>
-  </tr>
-  <tr>
-    <td>Sorbet</td>
-    <td><img src="https://www.lecremedelacrumb.com/wp-content/uploads/2014/06/raspberry-sorbet-1.jpg"></td>
-    <td>$6</td>
-  </tr>
-  <tr>
-    <td>Wine</td>
-    <td><img src="https://cdn.tatlerasia.com/asiatatler/i/hk/2020/08/12140440-guidalberto-2018_cover_1333x2000.jpg"></td>
-    <td>$20</td>
   </tr>
 </table>
 </body>
