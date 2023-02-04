@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Cart Page</title>
+<title>This is the Cart Page</title>
 </head>
 
 <style>
