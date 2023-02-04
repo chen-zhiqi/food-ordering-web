@@ -44,16 +44,19 @@ img {
     <td>Alfredo</td>
     <td><img src="https://onedishkitchen.com/wp-content/uploads/2019/05/alfredo-sauce-one-dish-kitchen-3000-square.jpg"></td>
     <td>$7</td>
+    <td> Button </td>
   </tr>
   <tr>
     <td>Spaghetti</td>
     <td><img src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg"></td>
     <td>$9</td>
+    <td> Button </td>
   </tr>
   <tr>
     <td>Risotto</td>
     <td><img src="https://food-images.files.bbci.co.uk/food/recipes/seafoodrisotto_5522_16x9.jpg"></td>
     <td>$11</td>
+    <td> Button </td>
   </tr>
 </table>
 </body>
