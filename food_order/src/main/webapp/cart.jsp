@@ -62,10 +62,8 @@ img {
 	<td><input type="submit" value="Add to Cart" /></td>
   </tr>
 
-  <tr> 
   <!-- Implement submit button with type = submit to perform the request when clicked -->
   <td><input type="submit" value="Checkout Now" /></td>
-  </tr>
 </table>
 </body>
 </html>
