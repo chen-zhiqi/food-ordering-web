@@ -26,8 +26,8 @@ tr:nth-child(even) {
 
 img {
     float: left;
-    width:  100px;
-    height: 100px;
+    width:  50px;
+    height: 50px;
     object-fit: cover;
 }
 </style>
