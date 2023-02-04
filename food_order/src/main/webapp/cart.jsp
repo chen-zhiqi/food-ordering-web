@@ -64,7 +64,7 @@ img {
 
   <tr> 
   <!-- Implement submit button with type = submit to perform the request when clicked -->
-	<input type="submit" value="Checkout Now" />
+  <td><input type="submit" value="Checkout Now" /></td>
   </tr>
 </table>
 </body>
