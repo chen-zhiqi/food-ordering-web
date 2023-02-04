@@ -32,7 +32,7 @@ img {
 }
 </style>
 <body>
-	<h1>Menu</h1>
+	<h1>Cart</h1>
 	
 	<table>
   <tr>
