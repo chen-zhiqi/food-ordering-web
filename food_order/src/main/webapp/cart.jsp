@@ -45,21 +45,21 @@ img {
     <td><img src="https://onedishkitchen.com/wp-content/uploads/2019/05/alfredo-sauce-one-dish-kitchen-3000-square.jpg"></td>
     <td>$7</td>
     <!-- Implement submit button with type = submit to perform the request when clicked -->
-	<input type="submit" value="Add to Cart" />
+	<td><input type="submit" value="Add to Cart" /></td>
   </tr>
   <tr>
     <td>Spaghetti</td>
     <td><img src="https://staticfanpage.akamaized.net/wp-content/uploads/sites/22/2021/06/THUMB-LINK-2020-2-1200x675.jpg"></td>
     <td>$9</td>
     <!-- Implement submit button with type = submit to perform the request when clicked -->
-	<input type="submit" value="Add to Cart" />
+	<td><input type="submit" value="Add to Cart" /></td>
   </tr>
   <tr>
     <td>Risotto</td>
     <td><img src="https://food-images.files.bbci.co.uk/food/recipes/seafoodrisotto_5522_16x9.jpg"></td>
     <td>$11</td>
     <!-- Implement submit button with type = submit to perform the request when clicked -->
-	<input type="submit" value="Add to Cart" />
+	<td><input type="submit" value="Add to Cart" /></td>
   </tr>
   <!-- Implement submit button with type = submit to perform the request when clicked -->
 	<input type="submit" value="Checkout Now" />
