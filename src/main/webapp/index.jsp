@@ -9,7 +9,6 @@
 </head>
 <body>
 	<h1>Ordering Web</h1>
-	<h1>test</h1>
 	<!-- Create a form with the action attribute to specific where to send the form-data when
 	the form is submitted, method attribute to specific the method used (GET, POST, PUT, DELETE,
 	Etc.) -->
